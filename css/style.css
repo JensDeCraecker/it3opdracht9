@@ -1,0 +1,110 @@
+h1 {
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 5em;
+  text-shadow: 4px 5px white, 6px 7px grey;
+}
+
+h2 {
+  font-family: 'Roboto';
+  font-size:3em; 
+  letter-spacing:3px; 
+  text-align:center;  
+  text-shadow: 4px 5px white, 6px 7px grey; 
+  z-index:10;
+}
+
+h3{
+  color:#84C6AB;
+  font-size: 1.3em;
+}
+
+#one{
+  font-family: 'Roboto';
+  font-size:3em; 
+  letter-spacing:3px; 
+  text-align:center;  
+  text-shadow: 4px 5px LIGHTGOLDENRODYELLOW, 6px 7px gold; 
+  z-index:10;
+}
+
+p {
+  font-family: 'Roboto'; 
+  font-size:0.9em; 
+  line-height:28px;
+}
+
+.block {
+  padding: 50px;
+  margin: auto;
+}
+.block-gray {
+  background: white;
+  padding: 50px;
+}
+.section-overlay-mask {
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%; 
+  opacity: 0.70;
+}
+
+.parallax-one {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image:url(http://www.100urban.nl/media/wysiwyg/slide-5.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.parallax-two {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://www.q-free.com/wp-content/uploads/2013/11/ATMS-urban-2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+[class*="fontawesome-"]:before {
+  font-family: 'Roboto';
+}
+section.text {
+  position: absolute;
+  width: 100%;
+  min-width: 800px;
+  text-align: center;
+  top: 30%;
+  margin-top: -55px;
+}
+
+a{
+  text-decoration:none;
+  color: black;
+  font-size: 3em;
+}
+
+a:hover {
+  color: #84C6AB;
+}
+
+#gold {
+  color: gold;
+}
+
